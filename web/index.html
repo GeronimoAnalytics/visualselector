@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visual Decision Garden</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="kicker">Power BI visual explorer</p>
+    <h1>Van vraag naar visual in een interactieve beslisboom</h1>
+    <p class="lead">Geinspireerd op Data-to-Viz, maar afgestemd op jouw catalogus en met klikbare modal-info per visual.</p>
+  </header>
+
+  <main class="layout">
+    <section class="controls panel">
+      <h2>1. Kies je analysevraag</h2>
+      <div id="goalOptions" class="choice-row"></div>
+
+      <h2>2. Datatype</h2>
+      <div id="dataTypeOptions" class="choice-row"></div>
+
+      <h2>3. Volgorde in data</h2>
+      <div id="orderOptions" class="choice-row"></div>
+
+      <p class="hint">Tip: hover op Ordered / Unordered voor voorbeelddata.</p>
+    </section>
+
+    <section class="tree panel">
+      <div class="tree-head">
+        <h2>Beslisboom resultaten</h2>
+        <span id="resultCount" class="count-pill">0 visuals</span>
+      </div>
+      <div id="treeCanvas" class="tree-canvas"></div>
+    </section>
+  </main>
+
+  <dialog id="visualModal" class="modal">
+    <article class="modal-card">
+      <button id="closeModal" class="modal-close" aria-label="Sluiten">x</button>
+      <div class="modal-top">
+        <div id="modalIcon" class="modal-icon"></div>
+        <div>
+          <p id="modalCategory" class="modal-category"></p>
+          <h3 id="modalTitle"></h3>
+          <p id="modalComplexity" class="modal-complexity"></p>
+        </div>
+      </div>
+      <div class="modal-grid">
+        <section>
+          <h4>Wat is het?</h4>
+          <p id="modalWhat"></p>
+        </section>
+        <section>
+          <h4>Wanneer gebruiken?</h4>
+          <p id="modalUse"></p>
+        </section>
+        <section>
+          <h4>Wanneer niet gebruiken?</h4>
+          <p id="modalNot"></p>
+        </section>
+      </div>
+    </article>
+  </dialog>
+
+  <template id="tooltipTemplate">
+    <div class="tooltip">
+      <p class="tooltip-title"></p>
+      <p class="tooltip-description"></p>
+      <ul class="tooltip-list"></ul>
+    </div>
+  </template>
+
+  <script src="visuals-data.js"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
