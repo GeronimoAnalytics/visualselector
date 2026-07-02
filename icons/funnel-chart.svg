@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Funnel Chart">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7FCFF"/><stop offset="1" stop-color="#EAF6FB"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163B4A" flood-opacity="0.24"/></filter></defs>
+<rect x="8" y="8" width="112" height="112" rx="16" fill="url(#bg)" stroke="#76AFC5" stroke-width="2" filter="url(#shadow)"/>
+<circle cx="24" cy="24" r="10" fill="#1A4F63"/><circle cx="24" cy="24" r="7" fill="#147EA6" opacity=".9"/>
+<path d="M34 34 H110 L94 54 H50 Z" fill="#147EA6"/><path d="M50 58 H94 L82 76 H62 Z" fill="#F2C811"/><path d="M62 80 H82 L74 96 H70 Z" fill="#F28E2B"/><path d="M34 34 H110 L74 96 H70 Z" fill="none" stroke="#1A4F63" stroke-width="2" opacity=".3"/>
+</svg>

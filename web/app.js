@@ -143,7 +143,7 @@ function renderTree() {
     node.className = "visual-node";
     node.type = "button";
     node.innerHTML = `
-      <div class="visual-icon">${visual.svgIcon || ""}</div>
+      <div class="visual-icon">${buildIconMarkup(visual)}</div>
       <div class="visual-name">${visual.name}</div>
       <div class="visual-meta">${visual.category} · ${visual.orderType}</div>
     `;
@@ -151,6 +151,53 @@ function renderTree() {
     node.addEventListener("click", () => openModal(visual));
     treeCanvas.appendChild(node);
   });
+}
+
+function buildIconMarkup(visual) {
+  if (visual.iconPath) {
+    const source = normalizeIconPath(visual.iconPath);
+    const alt = escapeHtml(`${visual.name || "Visual"} icoon`);
+    return `<img class="visual-icon-image" src="${source}" alt="${alt}" loading="lazy">`;
+  }
+
+  if (visual.svgIcon) {
+    return visual.svgIcon;
+  }
+
+  return '<span class="icon-placeholder">Geen icoon</span>';
+}
+
+function normalizeIconPath(pathValue) {
+  const rawPath = String(pathValue || "").trim().replaceAll("\\", "/");
+
+  if (!rawPath) {
+    return "";
+  }
+
+  if (
+    rawPath.startsWith("./") ||
+    rawPath.startsWith("../") ||
+    rawPath.startsWith("/") ||
+    /^https?:/i.test(rawPath) ||
+    /^data:/i.test(rawPath)
+  ) {
+    return rawPath;
+  }
+
+  if (rawPath.startsWith("icons/")) {
+    return `../${rawPath}`;
+  }
+
+  return rawPath;
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
 
 function matchesFilters(visual) {
@@ -169,7 +216,7 @@ function matchesFilters(visual) {
 }
 
 function openModal(visual) {
-  modalIcon.innerHTML = visual.svgIcon || "";
+  modalIcon.innerHTML = buildIconMarkup(visual);
   modalCategory.textContent = visual.category || "Onbekende categorie";
   modalTitle.textContent = visual.name;
   modalComplexity.textContent = `Complexiteit: ${visual.complexity}`;

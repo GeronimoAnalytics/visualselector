@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Designprincipes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .page-nav {
+      margin-top: 0.8rem;
+    }
+
+    .page-nav .choice {
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .principles-controls h2 {
+      margin-top: 0;
+    }
+
+    .principles-menu {
+      margin-bottom: 1rem;
+    }
+
+    .principles-menu .choice {
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .principles-menu .choice.active {
+      box-shadow: 0 6px 14px rgba(10, 123, 131, 0.22);
+    }
+
+    .principles-list {
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    .principle-item {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .principle-image {
+      border-bottom: 1px solid var(--line);
+      background: #f4f9fb;
+    }
+
+    .principle-image img {
+      width: 100%;
+      height: 100%;
+      min-height: 220px;
+      max-height: 360px;
+      object-fit: cover;
+      display: block;
+      cursor: zoom-in;
+    }
+
+    .principle-content {
+      padding: 0.9rem;
+    }
+
+    .principle-kicker {
+      margin: 0;
+      color: var(--teal);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-size: 0.73rem;
+      font-weight: 700;
+    }
+
+    .principle-content h3 {
+      margin: 0.35rem 0 0.5rem;
+      font-size: 1.25rem;
+    }
+
+    .principle-list {
+      margin: 0;
+      padding-left: 1.1rem;
+      color: var(--muted);
+      display: grid;
+      gap: 0.35rem;
+    }
+
+    .principle-list strong {
+      color: var(--ink);
+    }
+
+    .image-lightbox {
+      border: none;
+      padding: 0;
+      background: transparent;
+    }
+
+    .image-lightbox::backdrop {
+      background: rgba(17, 38, 48, 0.6);
+      backdrop-filter: blur(3px);
+    }
+
+    .image-lightbox-card {
+      width: min(960px, 92vw);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .image-lightbox-card img {
+      display: block;
+      width: 100%;
+      max-height: 80vh;
+      object-fit: contain;
+      background: #f7fbfd;
+    }
+
+    .image-lightbox-close {
+      position: absolute;
+      top: 0.55rem;
+      right: 0.55rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      width: 2rem;
+      height: 2rem;
+      background: #fff;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .image-lightbox-caption {
+      margin: 0;
+      padding: 0.7rem 0.9rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      background: #fff;
+      font-size: 0.86rem;
+    }
+
+    @media (min-width: 980px) {
+      .principle-item {
+        grid-template-columns: 1fr 1.25fr;
+      }
+
+      .principle-image {
+        border-bottom: 0;
+        border-right: 1px solid var(--line);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
+  <header class="hero">
+    <p class="kicker">Power BI visual explorer</p>
+    <h1>Designprincipes voor leesbare en bruikbare rapporten</h1>
+    <p class="lead">Praktische richtlijnen verdeeld in vier categorieen. Met direct toepasbare voorbeelden.</p>
+    <div class="page-nav">
+      <a class="choice active" href="index.html">Terug naar visual explorer</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="controls panel principles-controls">
+      <h2>Spring snel naar een thema</h2>
+      <div class="choice-row principles-menu" id="principlesMenu">
+        <a class="choice active" href="#cat1">Leesbare Structuur</a>
+        <a class="choice" href="#cat2">Sterke Dataverhalen</a>
+        <a class="choice" href="#cat3">Toegankelijke Stijl</a>
+        <a class="choice" href="#cat4">Slimme Interactie</a>
+      </div>
+      <p class="hint">Klik op een afbeelding om deze vergroot te bekijken.</p>
+    </section>
+
+    <section class="tree panel">
+      <div class="tree-head">
+        <h2>Designprincipes</h2>
+        <span class="count-pill">4 categorieen</span>
+      </div>
+
+      <div class="principles-list">
+        <article id="cat1" class="principle-item">
+          <div class="principle-image">
+            <img class="zoomable" src="../images/categorie1.png" alt="Voorbeeld van dashboardopbouw met duidelijke visuele hierarchie" loading="lazy">
+          </div>
+          <div class="principle-content">
+            <p class="principle-kicker">Categorie 1 - Leesbare Structuur</p>
+            <h3>Begin met paginalayout en visuele hierarchie</h3>
+            <ul class="principle-list">
+              <li><strong>Werk in F- of Z-richting:</strong> zet kern-KPI's linksboven en details rechtsonder.</li>
+              <li><strong>Gebruik de 3-30-300 aanpak:</strong> overzicht in 3 seconden, trends in 30 seconden en verdieping in 300 seconden.</li>
+              <li><strong>Beperk hoofdvisuals:</strong> houd het bij 4 tot 6 primaire visuals per pagina.</li>
+              <li><strong>Gebruik witruimte bewust:</strong> minder ruis, betere scanbaarheid.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article id="cat2" class="principle-item">
+          <div class="principle-image">
+            <img class="zoomable" src="../images/categorie2.png" alt="Voorbeeld van passende grafiekkeuze voor dataverhaal" loading="lazy">
+          </div>
+          <div class="principle-content">
+            <p class="principle-kicker">Categorie 2 - Sterke Dataverhalen</p>
+            <h3>Kies grafieken die de vraag direct beantwoorden</h3>
+            <ul class="principle-list">
+              <li><strong>Houd visuals eenvoudig:</strong> start met staaf-, kolom- en lijngrafieken.</li>
+              <li><strong>Voorkom interne scroll:</strong> gebruik hierarchie of drill voor verdieping.</li>
+              <li><strong>Zet cijfers in context:</strong> vergelijk met target, benchmark of vorige periode.</li>
+              <li><strong>Formatteer compact:</strong> bijvoorbeeld 1,2M in plaats van lange getallen.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article id="cat3" class="principle-item">
+          <div class="principle-image">
+            <img class="zoomable" src="../images/categorie3.png" alt="Voorbeeld van kleurgebruik met hoog contrast en duidelijke accenten" loading="lazy">
+          </div>
+          <div class="principle-content">
+            <p class="principle-kicker">Categorie 3 - Toegankelijke Stijl</p>
+            <h3>Gebruik kleur functioneel en inclusief</h3>
+            <ul class="principle-list">
+              <li><strong>Werk met een beperkt palet:</strong> 3 tot 5 functionele kleuren is vaak genoeg.</li>
+              <li><strong>Accent met intentie:</strong> felle kleuren alleen voor afwijkingen of actie.</li>
+              <li><strong>Check contrast:</strong> informatie moet ook zonder kleurverschil leesbaar zijn.</li>
+              <li><strong>Kies rustige achtergronden:</strong> zo blijft data visueel centraal staan.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article id="cat4" class="principle-item">
+          <div class="principle-image">
+            <img class="zoomable" src="../images/categorie4.png" alt="Voorbeeld van interactieve navigatie en mobiele dashboardopzet" loading="lazy">
+          </div>
+          <div class="principle-content">
+            <p class="principle-kicker">Categorie 4 - Slimme Interactie</p>
+            <h3>Maak navigatie logisch en mobiel-proof</h3>
+            <ul class="principle-list">
+              <li><strong>Werk met gelaagde details:</strong> drill-through en tooltips op het juiste moment.</li>
+              <li><strong>Ontwerp vaste routes:</strong> duidelijke knoppen en voorspelbare paden.</li>
+              <li><strong>Denk mobile-first:</strong> maak een eigen verticale mobiele variant.</li>
+              <li><strong>Hou interactie consistent:</strong> hetzelfde gedrag voor dezelfde type acties.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="imageLightbox" class="image-lightbox" aria-label="Vergrote afbeelding">
+    <article class="image-lightbox-card">
+      <button id="closeLightbox" class="image-lightbox-close" type="button" aria-label="Sluiten">x</button>
+      <img id="lightboxImage" src="" alt="">
+      <p id="lightboxCaption" class="image-lightbox-caption"></p>
+    </article>
+  </dialog>
+
+  <script>
+    const lightbox = document.getElementById("imageLightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+    const lightboxCaption = document.getElementById("lightboxCaption");
+    const closeLightbox = document.getElementById("closeLightbox");
+    const zoomableImages = document.querySelectorAll(".zoomable");
+    const menuLinks = Array.from(document.querySelectorAll("#principlesMenu .choice"));
+    const sections = Array.from(document.querySelectorAll(".principle-item[id]"));
+
+    function setActiveMenuLink(id) {
+      menuLinks.forEach((link) => {
+        const isActive = link.getAttribute("href") === `#${id}`;
+        link.classList.toggle("active", isActive);
+
+        if (isActive) {
+          link.setAttribute("aria-current", "true");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    }
+
+    function openLightbox(sourceImage) {
+      lightboxImage.src = sourceImage.src;
+      lightboxImage.alt = sourceImage.alt;
+      lightboxCaption.textContent = sourceImage.alt;
+      lightbox.showModal();
+    }
+
+    zoomableImages.forEach((image) => {
+      image.addEventListener("click", () => openLightbox(image));
+      image.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openLightbox(image);
+        }
+      });
+      image.setAttribute("tabindex", "0");
+    });
+
+    closeLightbox.addEventListener("click", () => lightbox.close());
+
+    lightbox.addEventListener("click", (event) => {
+      if (event.target === lightbox) {
+        lightbox.close();
+      }
+    });
+
+    if (sections.length && menuLinks.length) {
+      const topOffset = 140;
+
+      function updateActiveByScroll() {
+        let currentId = sections[0].id;
+
+        sections.forEach((section) => {
+          const sectionTop = section.getBoundingClientRect().top;
+          if (sectionTop - topOffset <= 0) {
+            currentId = section.id;
+          }
+        });
+
+        setActiveMenuLink(currentId);
+      }
+
+      menuLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const targetId = link.getAttribute("href")?.slice(1);
+          if (targetId) {
+            setActiveMenuLink(targetId);
+          }
+        });
+      });
+
+      window.addEventListener("scroll", updateActiveByScroll, { passive: true });
+      window.addEventListener("resize", updateActiveByScroll);
+      updateActiveByScroll();
+    }
+  </script>
+</body>
+</html>

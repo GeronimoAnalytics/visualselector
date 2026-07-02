@@ -48,6 +48,15 @@ DATA_TYPE_HINTS = {
     "mixed": "both",
 }
 
+ICON_PATH_HEADERS = [
+    "Icoon Pad",
+    "Icon Pad",
+    "Icon Path",
+    "SVG Pad",
+    "SVG Path",
+    "SVG Icoon Pad",
+]
+
 
 def normalize_slug(value: str) -> str:
     return "".join(ch.lower() if ch.isalnum() else "-" for ch in value).strip("-")
@@ -58,6 +67,13 @@ def first_existing_sheet(workbook):
         if name in workbook.sheetnames:
             return workbook[name]
     raise ValueError(f"Geen van deze sheets gevonden: {SHEET_CANDIDATES}")
+
+
+def pick_first_column(index: dict[str, int], candidates: list[str]) -> int | None:
+    for candidate in candidates:
+        if candidate in index:
+            return index[candidate]
+    return None
 
 
 def main() -> None:
@@ -76,11 +92,14 @@ def main() -> None:
         "Wanneer gebruiken?",
         "Wanneer niet gebruiken?",
         "Afbeelding Pad",
-        "SVG Icoon",
     ]
     missing = [key for key in required if key not in index]
     if missing:
         raise ValueError(f"Vereiste kolommen missen: {missing}")
+
+    svg_icon_col = index.get("SVG Icoon")
+    icon_path_col = pick_first_column(index, ICON_PATH_HEADERS)
+    icons_dir = WORKBOOK.parent / "icons"
 
     visuals = []
     for row in range(2, sheet.max_row + 1):
@@ -92,9 +111,21 @@ def main() -> None:
         category_key = category.lower()
         goal = GOAL_MAP.get(category_key, "mixed")
 
+        visual_id = normalize_slug(str(name))
+        icon_path = ""
+
+        if icon_path_col:
+            icon_path = sheet.cell(row, icon_path_col).value or ""
+            icon_path = str(icon_path).strip()
+
+        if not icon_path:
+            candidate = icons_dir / f"{visual_id}.svg"
+            if candidate.exists():
+                icon_path = f"../icons/{candidate.name}"
+
         visuals.append(
             {
-                "id": normalize_slug(str(name)),
+                "id": visual_id,
                 "name": str(name),
                 "kind": sheet.cell(row, index["Soort"]).value or "Visual",
                 "category": category,
@@ -104,7 +135,8 @@ def main() -> None:
                 "whenToUse": sheet.cell(row, index["Wanneer gebruiken?"]).value or "",
                 "whenNotToUse": sheet.cell(row, index["Wanneer niet gebruiken?"]).value or "",
                 "imagePath": sheet.cell(row, index["Afbeelding Pad"]).value or "",
-                "svgIcon": sheet.cell(row, index["SVG Icoon"]).value or "",
+                "iconPath": icon_path,
+                "svgIcon": sheet.cell(row, svg_icon_col).value or "" if svg_icon_col else "",
                 "orderType": ORDER_HINTS.get(goal, "both"),
                 "dataType": DATA_TYPE_HINTS.get(goal, "both"),
             }

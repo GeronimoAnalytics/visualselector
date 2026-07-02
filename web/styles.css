@@ -17,7 +17,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Manrope", "Segoe UI", sans-serif;
+  font-family: "Nunito Sans", "Segoe UI", sans-serif;
   color: var(--ink);
   background: radial-gradient(circle at 12% 8%, #fdf7e7 0%, transparent 40%),
     radial-gradient(circle at 85% 25%, #d8edf0 0%, transparent 38%),
@@ -67,7 +67,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Fraunces", Georgia, serif;
+  font-family: "Poppins", "Segoe UI", sans-serif;
   line-height: 1.15;
 }
 
@@ -83,13 +83,22 @@ h1 {
   max-width: 72ch;
 }
 
+.page-nav {
+  margin-top: 0.8rem;
+}
+
+.page-nav .choice {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .layout {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1.2rem 2rem;
   display: grid;
   gap: 1rem;
-  grid-template-columns: minmax(240px, 320px) 1fr;
+  grid-template-columns: 1fr;
 }
 
 .panel {
@@ -101,9 +110,8 @@ h1 {
 
 .controls {
   padding: 1rem;
-  align-self: start;
-  position: sticky;
-  top: 1rem;
+  align-self: stretch;
+  position: static;
 }
 
 .controls h2 {
@@ -211,7 +219,7 @@ h1 {
 .tree-canvas {
   display: grid;
   gap: 0.7rem;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
 
 .visual-node {
@@ -246,6 +254,18 @@ h1 {
   width: 100%;
   height: auto;
   max-height: 66px;
+}
+
+.visual-icon-image {
+  width: 100%;
+  height: auto;
+  max-height: 66px;
+  object-fit: contain;
+}
+
+.icon-placeholder {
+  color: var(--muted);
+  font-size: 0.78rem;
 }
 
 .visual-name {
@@ -379,12 +399,8 @@ h1 {
 }
 
 @media (max-width: 900px) {
-  .layout {
-    grid-template-columns: 1fr;
-  }
-
-  .controls {
-    position: static;
+  .tree-canvas {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   }
 
   .modal-top {

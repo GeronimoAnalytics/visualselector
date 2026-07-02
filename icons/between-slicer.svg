@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Between Slicer">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7FCFF"/><stop offset="1" stop-color="#EAF6FB"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#163B4A" flood-opacity="0.24"/></filter></defs>
+<rect x="8" y="8" width="112" height="112" rx="16" fill="url(#bg)" stroke="#76AFC5" stroke-width="2" filter="url(#shadow)"/>
+<circle cx="24" cy="24" r="10" fill="#1A4F63"/><circle cx="24" cy="24" r="7" fill="#147EA6" opacity=".9"/>
+<line x1="38" y1="68" x2="104" y2="68" stroke="#147EA6" stroke-width="7" stroke-linecap="round"/><circle cx="54" cy="68" r="10" fill="#F2C811" stroke="#1A4F63" stroke-width="2"/><circle cx="90" cy="68" r="10" fill="#F2C811" stroke="#1A4F63" stroke-width="2"/><text x="54" y="92" text-anchor="middle" font-size="10" fill="#1A4F63" font-family="Segoe UI">van</text><text x="90" y="92" text-anchor="middle" font-size="10" fill="#1A4F63" font-family="Segoe UI">tot</text>
+</svg>
