@@ -184,10 +184,6 @@ function normalizeIconPath(pathValue) {
     return rawPath;
   }
 
-  if (rawPath.startsWith("icons/")) {
-    return `../${rawPath}`;
-  }
-
   return rawPath;
 }
 

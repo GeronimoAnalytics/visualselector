@@ -121,7 +121,7 @@ def main() -> None:
         if not icon_path:
             candidate = icons_dir / f"{visual_id}.svg"
             if candidate.exists():
-                icon_path = f"../icons/{candidate.name}"
+                icon_path = f"icons/{candidate.name}"
 
         visuals.append(
             {

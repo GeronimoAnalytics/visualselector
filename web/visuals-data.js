@@ -55,7 +55,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je de exacte waarden van verschillende categorieën direct wilt vergelijken, of wanneer de categorienamen lang zijn.",
       "whenNotToUse": "Als je het aandeel van een subcategorie in het grote geheel wilt zien, of bij een grote hoeveelheid categorieën.",
       "imagePath": "images/clustered-bar-chart.png",
-      "iconPath": "../icons/clustered-bar-chart.svg",
+      "iconPath": "icons/clustered-bar-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='12' y='14' width='30' height='8' fill='#0B4F8A'/><rect x='12' y='27' width='46' height='8' fill='#1492C5'/><rect x='12' y='40' width='62' height='8' fill='#F2C24D'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -71,7 +71,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je zowel de totale waarde van de hoofdcategorie wilt zien áls de opbouw daarvan uit verschillende subcategorieën.",
       "whenNotToUse": "Als het exact vergelijken van de losse subcategorieën onderling het belangrijkste doel is.",
       "imagePath": "images/stacked-bar-chart.png",
-      "iconPath": "../icons/stacked-bar-chart.svg",
+      "iconPath": "icons/stacked-bar-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='12' y='14' width='30' height='8' fill='#0B4F8A'/><rect x='12' y='27' width='46' height='8' fill='#1492C5'/><rect x='12' y='40' width='62' height='8' fill='#F2C24D'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -103,7 +103,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor het vergelijken van discrete categorieën of een beperkt aantal datumpunten (bijv. 4 kwartalen).",
       "whenNotToUse": "Als de categorienamen erg lang zijn (waardoor labels kantelen), of bij een zeer lange tijdreeks.",
       "imagePath": "images/clustered-column-chart.png",
-      "iconPath": "../icons/clustered-column-chart.svg",
+      "iconPath": "icons/clustered-column-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='18' y='30' width='12' height='20' fill='#0B4F8A'/><rect x='36' y='20' width='12' height='30' fill='#1492C5'/><rect x='54' y='12' width='12' height='38' fill='#F2C24D'/><line x1='12' y1='50' x2='82' y2='50' stroke='#4F7A94'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -119,7 +119,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de totale waarde per kolom te tonen én tegelijkertijd te laten zien hoe de verdeling van de subcategorieën is.",
       "whenNotToUse": "Als je de exacte trends of waarden van de bovenste subcategorieën accuraat wilt vergelijken over de tijd.",
       "imagePath": "images/stacked-column-chart.png",
-      "iconPath": "../icons/stacked-column-chart.svg",
+      "iconPath": "icons/stacked-column-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='18' y='30' width='12' height='20' fill='#0B4F8A'/><rect x='36' y='20' width='12' height='30' fill='#1492C5'/><rect x='54' y='12' width='12' height='38' fill='#F2C24D'/><line x1='12' y1='50' x2='82' y2='50' stroke='#4F7A94'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -151,7 +151,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor het visualiseren van trends, patronen en veranderingen over opeenvolgende perioden (continue data zoals datums).",
       "whenNotToUse": "Wanneer je discrete categorieën zonder tijds- of volgorderelatie wilt vergelijken.",
       "imagePath": "images/line-chart.png",
-      "iconPath": "../icons/line-chart.svg",
+      "iconPath": "icons/line-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -167,7 +167,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de ontwikkeling van totale volumes over de tijd te tonen én tegelijkertijd de trend te visualiseren.",
       "whenNotToUse": "Bij het vergelijken van veel verschillende categorieën, omdat de ingekleurde vlakken elkaar dan overlappen.",
       "imagePath": "images/area-chart.png",
-      "iconPath": "../icons/area-chart.svg",
+      "iconPath": "icons/area-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><path d='M12 50 L12 38 L30 28 L46 31 L64 19 L82 16 L82 50 Z' fill='#1492C5' opacity='0.9'/><polyline points='12,38 30,28 46,31 64,19 82,16' fill='none' stroke='#0B4F8A' stroke-width='2'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -183,7 +183,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de trend van het totale volume over de tijd te tonen, inclusief de verandering in de opbouw daarvan.",
       "whenNotToUse": "Als het accuraat vergelijken van de trends van individuele subcategorieën onderling het hoofddoel is.",
       "imagePath": "images/stacked-area-chart.png",
-      "iconPath": "../icons/stacked-area-chart.svg",
+      "iconPath": "icons/stacked-area-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><path d='M12 50 L12 40 L28 33 L46 38 L64 28 L82 34 L82 50 Z' fill='#0B4F8A' opacity='0.75'/><path d='M12 40 L28 30 L46 33 L64 22 L82 26 L82 34 L64 28 L46 38 L28 33 L12 40 Z' fill='#1492C5' opacity='0.75'/><path d='M12 30 L28 20 L46 24 L64 14 L82 17 L82 26 L64 22 L46 33 L28 30 L12 40 Z' fill='#F2C24D' opacity='0.75'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -199,7 +199,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer de verandering in de rangorde (ranking) van categorieën over de tijd belangrijker is dan de absolute waarden.",
       "whenNotToUse": "Als de totale waarde of de exacte waarden per periode direct nauwkeurig afgelezen moeten kunnen worden.",
       "imagePath": "images/ribbon-chart.png",
-      "iconPath": "../icons/ribbon-chart.svg",
+      "iconPath": "icons/ribbon-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><path d='M12 20 C28 10, 40 32, 54 22 C66 14, 76 34, 84 24 L84 34 C74 44, 66 24, 54 32 C40 42, 26 18, 12 30 Z' fill='#1492C5'/><path d='M12 30 C26 18, 40 42, 54 32 C66 24, 74 44, 84 34 L84 42 C74 52, 66 32, 54 40 C40 50, 28 28, 12 38 Z' fill='#F2C24D' opacity='0.9'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -215,7 +215,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor financiële of operationele analyses (bijv. van Bruto naar Netto winst, of personeelsverloop over maanden).",
       "whenNotToUse": "Voor een simpele vergelijking tussen onafhankelijke categorieën zonder logische opbouw.",
       "imagePath": "images/waterfall-chart.png",
-      "iconPath": "../icons/waterfall-chart.svg",
+      "iconPath": "icons/waterfall-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><line x1='12' y1='50' x2='82' y2='50' stroke='#4F7A94'/><rect x='16' y='34' width='10' height='16' fill='#0B4F8A'/><rect x='32' y='24' width='10' height='10' fill='#1492C5'/><rect x='48' y='24' width='10' height='18' fill='#F2C24D'/><rect x='64' y='42' width='10' height='8' fill='#0B4F8A'/><line x1='26' y1='34' x2='32' y2='34' stroke='#4F7A94'/><line x1='42' y1='24' x2='48' y2='24' stroke='#4F7A94'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -231,7 +231,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je twee metrics met verschillende schalen wilt vergelijken die wel aan elkaar gerelateerd zijn (bijv. Omzet vs. Marge%).",
       "whenNotToUse": "Als het dashboard hierdoor te druk of verwarrend wordt voor de doelgroep, of als de metrics dezelfde schaal hebben.",
       "imagePath": "images/line-and-clustered-column-chart.png",
-      "iconPath": "../icons/line-and-clustered-column-chart.svg",
+      "iconPath": "icons/line-and-clustered-column-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='18' y='30' width='12' height='20' fill='#0B4F8A'/><rect x='36' y='20' width='12' height='30' fill='#1492C5'/><rect x='54' y='12' width='12' height='38' fill='#F2C24D'/><line x1='12' y1='50' x2='82' y2='50' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -247,7 +247,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de opbouw van een totaalvolume te tonen én dit te relateren aan een andere measure (bijv. Kostenposten vs. Budget%).",
       "whenNotToUse": "Bij te veel subcategorieën of wanneer een eenvoudige splitsing overzichtelijker is.",
       "imagePath": "images/line-and-stacked-column-chart.png",
-      "iconPath": "../icons/line-and-stacked-column-chart.svg",
+      "iconPath": "icons/line-and-stacked-column-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='18' y='30' width='12' height='20' fill='#0B4F8A'/><rect x='36' y='20' width='12' height='30' fill='#1492C5'/><rect x='54' y='12' width='12' height='38' fill='#F2C24D'/><line x1='12' y1='50' x2='82' y2='50' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -263,7 +263,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor een snelle, globale indruk van de verdeling van een zeer beperkt aantal categorieën (max. 2 tot 3) met grote verschillen.",
       "whenNotToUse": "Bij meer dan 3 categorieën, of wanneer categorieën bijna even groot zijn (het menselijk oog ziet hoeken slecht).",
       "imagePath": "images/pie-chart.png",
-      "iconPath": "../icons/pie-chart.svg",
+      "iconPath": "icons/pie-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><circle cx='48' cy='32' r='20' fill='#0B4F8A'/><path d='M48 32 L48 12 A20 20 0 0 1 66 44 Z' fill='#1492C5'/><path d='M48 32 L66 44 A20 20 0 0 1 32 46 Z' fill='#F2C24D'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -279,7 +279,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Zelfde als pie chart; het centrum kan eventueel gebruikt worden voor een totaal-label of een KPI-icoon.",
       "whenNotToUse": "Zelfde als pie chart; vermijd bij complexe verdelingen of veel categorieën.",
       "imagePath": "images/donut-chart.png",
-      "iconPath": "../icons/donut-chart.svg",
+      "iconPath": "icons/donut-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><circle cx='48' cy='32' r='20' fill='#0B4F8A'/><path d='M48 32 L48 12 A20 20 0 0 1 66 44 Z' fill='#1492C5'/><path d='M48 32 L66 44 A20 20 0 0 1 32 46 Z' fill='#F2C24D'/><circle cx='48' cy='32' r='10' fill='url(#bg)'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -295,7 +295,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om hiërarchische data te tonen of om een overzicht te geven van een groot aantal categorieën (om direct uitschieters te zien).",
       "whenNotToUse": "Wanneer het exact vergelijken van subtiele verschillen tussen categorieën noodzakelijk is.",
       "imagePath": "images/treemap.png",
-      "iconPath": "../icons/treemap.svg",
+      "iconPath": "icons/treemap.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='14' width='30' height='22' fill='#0B4F8A'/><rect x='46' y='14' width='36' height='14' fill='#1492C5'/><rect x='46' y='30' width='16' height='22' fill='#F2C24D'/><rect x='64' y='30' width='18' height='10' fill='#0B4F8A' opacity='0.8'/><rect x='64' y='42' width='18' height='10' fill='#1492C5' opacity='0.8'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -311,7 +311,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor het inzichtelijk maken van processen met uitval, zoals een verkooppijplijn (Leads > Gecontacteerd > Offerte > Deal).",
       "whenNotToUse": "Voor het vergelijken van niet-gerelateerde categorieën die geen vaste volgorde of proces doorlopen.",
       "imagePath": "images/funnel-chart.png",
-      "iconPath": "../icons/funnel-chart.svg",
+      "iconPath": "icons/funnel-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><path d='M16 14 H80 L66 28 H30 Z' fill='#0B4F8A'/><path d='M30 28 H66 L58 40 H38 Z' fill='#1492C5'/><path d='M38 40 H58 L52 50 H44 Z' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "both"
@@ -327,7 +327,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om patronen, trends, correlaties of uitschieters (outliers) tussen grote hoeveelheden numerieke datapunten te ontdekken.",
       "whenNotToUse": "Wanneer je slechts één variabele wilt tonen of wanneer de eindgebruiker niet gewend is aan statistische visualisaties.",
       "imagePath": "images/scatter-chart.png",
-      "iconPath": "../icons/scatter-chart.svg",
+      "iconPath": "icons/scatter-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><line x1='14' y1='50' x2='82' y2='50' stroke='#4F7A94'/><line x1='14' y1='50' x2='14' y2='14' stroke='#4F7A94'/><circle cx='26' cy='42' r='2.5' fill='#0B4F8A'/><circle cx='35' cy='35' r='2.5' fill='#1492C5'/><circle cx='46' cy='30' r='2.5' fill='#F2C24D'/><circle cx='60' cy='24' r='2.5' fill='#0B4F8A'/><circle cx='70' cy='20' r='2.5' fill='#1492C5'/></svg>",
       "orderType": "unordered",
       "dataType": "numeric"
@@ -343,7 +343,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je drie samenhangende numerieke metrics tegelijk wilt analyseren (bijv. Omzet op X, Marge% op Y, en Volume als grootte).",
       "whenNotToUse": "Wanneer de bellen elkaar te veel overlappen waardoor de visualisatie onleesbaar wordt.",
       "imagePath": "images/bubble-chart.png",
-      "iconPath": "../icons/bubble-chart.svg",
+      "iconPath": "icons/bubble-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><line x1='14' y1='50' x2='82' y2='50' stroke='#4F7A94'/><line x1='14' y1='50' x2='14' y2='14' stroke='#4F7A94'/><circle cx='28' cy='40' r='4' fill='#0B4F8A'/><circle cx='44' cy='32' r='6' fill='#1492C5'/><circle cx='62' cy='24' r='8' fill='#F2C24D'/></svg>",
       "orderType": "unordered",
       "dataType": "numeric"
@@ -359,7 +359,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de spreiding en dichtheid van data over verschillende categorieën compact te vergelijken.",
       "whenNotToUse": "Bij extreem grote datasets met miljoenen rijen zonder aggregatie.",
       "imagePath": "images/dot-plot-chart.png",
-      "iconPath": "../icons/dot-plot-chart.svg",
+      "iconPath": "icons/dot-plot-chart.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><line x1='14' y1='50' x2='82' y2='50' stroke='#4F7A94'/><line x1='14' y1='50' x2='14' y2='14' stroke='#4F7A94'/><circle cx='26' cy='42' r='2.5' fill='#0B4F8A'/><circle cx='35' cy='35' r='2.5' fill='#1492C5'/><circle cx='46' cy='30' r='2.5' fill='#F2C24D'/><circle cx='60' cy='24' r='2.5' fill='#0B4F8A'/><circle cx='70' cy='20' r='2.5' fill='#1492C5'/></svg>",
       "orderType": "unordered",
       "dataType": "numeric"
@@ -375,7 +375,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer gebruikers de exacte, gedetailleerde cijfers nodig hebben, of voor ruwe exportdoeleinden van detaildata.",
       "whenNotToUse": "Om snel trends, patronen of macro-uitschieters in één oogopslag te ontdekken.",
       "imagePath": "images/table.png",
-      "iconPath": "../icons/table.svg",
+      "iconPath": "icons/table.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='16' width='20' height='34' fill='#1492C5' opacity='0.15'/><line x1='14' y1='16' x2='14' y2='50' stroke='#9BC2DA'/><line x1='34' y1='16' x2='34' y2='50' stroke='#9BC2DA'/><line x1='54' y1='16' x2='54' y2='50' stroke='#9BC2DA'/><line x1='74' y1='16' x2='74' y2='50' stroke='#9BC2DA'/><line x1='14' y1='16' x2='74' y2='16' stroke='#9BC2DA'/><line x1='14' y1='27' x2='74' y2='27' stroke='#9BC2DA'/><line x1='14' y1='38' x2='74' y2='38' stroke='#9BC2DA'/><line x1='14' y1='50' x2='74' y2='50' stroke='#9BC2DA'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -391,7 +391,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor complexe financiële rapportages, balansen of wanneer data over meerdere dimensies (rijen én kolommen) moet worden uitgesplitst.",
       "whenNotToUse": "Voor eenvoudige, lineaire platte lijsten zonder aggregatiebehoefte.",
       "imagePath": "images/matrix.png",
-      "iconPath": "../icons/matrix.svg",
+      "iconPath": "icons/matrix.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='16' width='60' height='11' fill='#0B4F8A' opacity='0.25'/><line x1='14' y1='16' x2='14' y2='50' stroke='#9BC2DA'/><line x1='34' y1='16' x2='34' y2='50' stroke='#9BC2DA'/><line x1='54' y1='16' x2='54' y2='50' stroke='#9BC2DA'/><line x1='74' y1='16' x2='74' y2='50' stroke='#9BC2DA'/><line x1='14' y1='16' x2='74' y2='16' stroke='#9BC2DA'/><line x1='14' y1='27' x2='74' y2='27' stroke='#9BC2DA'/><line x1='14' y1='38' x2='74' y2='38' stroke='#9BC2DA'/><line x1='14' y1='50' x2='74' y2='50' stroke='#9BC2DA'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -407,7 +407,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de allerbelangrijkste statistiek van een dashboard in één oogopslag te tonen (bijv. Totale Omzet).",
       "whenNotToUse": "Wanneer je historische context, trends of vergelijkingen tussen meerdere categorieën wilt tonen.",
       "imagePath": "images/card.png",
-      "iconPath": "../icons/card.svg",
+      "iconPath": "icons/card.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='14' width='68' height='36' rx='6' fill='white' stroke='#9BC2DA'/><text x='48' y='37' text-anchor='middle' font-size='14' font-family='Segoe UI, Arial' fill='#0B4F8A'>1.2M</text></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -439,7 +439,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om een handvol KPI's of de specifieke details van één geselecteerde entiteit overzichtelijk te groeperen.",
       "whenNotToUse": "Voor het tonen van lange tabellen of complexe cross-tabulaties.",
       "imagePath": "images/multi-row-card.png",
-      "iconPath": "../icons/multi-row-card.svg",
+      "iconPath": "icons/multi-row-card.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='16' width='68' height='10' rx='3' fill='#0B4F8A' opacity='0.25'/><rect x='14' y='30' width='54' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='14' y='42' width='40' height='8' rx='3' fill='#F2C24D' opacity='0.5'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -455,7 +455,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om direct de status te zien van een kritieke prestatie-indicator (groen/rood) en de voortgang over de tijd te volgen.",
       "whenNotToUse": "Als er geen duidelijke target, deadline of historische trenddata beschikbaar is.",
       "imagePath": "images/kpi-visual.png",
-      "iconPath": "../icons/kpi-visual.svg",
+      "iconPath": "icons/kpi-visual.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='14' width='42' height='36' rx='6' fill='white' stroke='#9BC2DA'/><polyline points='20,40 28,34 36,36 46,24' fill='none' stroke='#1492C5' stroke-width='2'/><circle cx='68' cy='32' r='12' fill='#F2C24D'/><path d='M62 33 L67 38 L75 27' fill='none' stroke='#1C5E2A' stroke-width='3'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -471,7 +471,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor het monitoren van budgetten, targets of operationele limieten binnen een vastgesteld minimum en maximum.",
       "whenNotToUse": "Als je gedetailleerde historische trends of complexe vergelijkingen tussen categorieën wilt tonen.",
       "imagePath": "images/gauge.png",
-      "iconPath": "../icons/gauge.svg",
+      "iconPath": "icons/gauge.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><path d='M24 42 A24 24 0 0 1 72 42' fill='none' stroke='#0B4F8A' stroke-width='6'/><path d='M24 42 A24 24 0 0 1 55 20' fill='none' stroke='#1492C5' stroke-width='6'/><line x1='48' y1='42' x2='64' y2='28' stroke='#F2C24D' stroke-width='3'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -503,7 +503,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Bij complexe geografische datasets, behoefte aan custom lagen (verkeer, weer, satelliet) of zware prestatie-eisen.",
       "whenNotToUse": "Voor simpele dashboards met slechts een paar steden of landen waar een basiskaart volstaat.",
       "imagePath": "images/azure-maps.png",
-      "iconPath": "../icons/azure-maps.svg",
+      "iconPath": "icons/azure-maps.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><circle cx='48' cy='32' r='20' fill='#1492C5' opacity='0.3' stroke='#0B4F8A'/><path d='M38 22 L46 18 L56 22 L58 30 L52 38 L44 36 L38 28 Z' fill='#0B4F8A' opacity='0.8'/><circle cx='66' cy='24' r='3' fill='#F2C24D'/><circle cx='30' cy='40' r='3' fill='#F2C24D'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -519,7 +519,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer de geografische spreiding of exacte locatie van de data de primaire invalshoek van de analyse is.",
       "whenNotToUse": "Wanneer de data op regio- of landniveau accuraat vergeleken moet worden zonder overlappende bellen.",
       "imagePath": "images/basic-map.png",
-      "iconPath": "../icons/basic-map.svg",
+      "iconPath": "icons/basic-map.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><circle cx='48' cy='32' r='20' fill='#1492C5' opacity='0.3' stroke='#0B4F8A'/><path d='M38 22 L46 18 L56 22 L58 30 L52 38 L44 36 L38 28 Z' fill='#0B4F8A' opacity='0.8'/><circle cx='66' cy='24' r='3' fill='#F2C24D'/><circle cx='30' cy='40' r='3' fill='#F2C24D'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -535,7 +535,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de intensiteit, dichtheid of percentages van een measure per vooraf gedefinieerde regio te tonen (choropleeth).",
       "whenNotToUse": "Wanneer kleine regio's met hoge waarden wegvallen tegen grote geografische landoppervlakken met lage waarden.",
       "imagePath": "images/filled-map.png",
-      "iconPath": "../icons/filled-map.svg",
+      "iconPath": "icons/filled-map.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><path d='M24 20 L40 14 L56 20 L70 16 L72 44 L54 50 L36 46 L22 50 Z' fill='#1492C5' opacity='0.8' stroke='#0B4F8A'/><path d='M40 14 L40 46 M56 20 L54 50 M24 20 L36 46 M70 16 L72 44' stroke='white' opacity='0.5'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -551,7 +551,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je specifieke, niet-standaard regio's wilt tonen (bijvoorbeeld eigen verkoopregio's of Nederlandse gemeenten).",
       "whenNotToUse": "Wanneer exacte gps-locaties, stratenkaarten of satellietbeelden vereist zijn.",
       "imagePath": "images/shape-map.png",
-      "iconPath": "../icons/shape-map.svg",
+      "iconPath": "icons/shape-map.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><path d='M24 20 L40 14 L56 20 L70 16 L72 44 L54 50 L36 46 L22 50 Z' fill='#1492C5' opacity='0.8' stroke='#0B4F8A'/><path d='M40 14 L40 46 M56 20 L54 50 M24 20 L36 46 M70 16 L72 44' stroke='white' opacity='0.5'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -567,7 +567,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je business data wilt verrijken met externe GIS-lagen, reistijd-contouren of diepe demografische inzichten.",
       "whenNotToUse": "Voor standaard dashboards zonder behoefte aan Esri-licenties of geavanceerde geo-analyses.",
       "imagePath": "images/arcgis-maps-for-power-bi.png",
-      "iconPath": "../icons/arcgis-maps-for-power-bi.svg",
+      "iconPath": "icons/arcgis-maps-for-power-bi.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><circle cx='48' cy='32' r='20' fill='#1492C5' opacity='0.3' stroke='#0B4F8A'/><path d='M38 22 L46 18 L56 22 L58 30 L52 38 L44 36 L38 28 Z' fill='#0B4F8A' opacity='0.8'/><circle cx='66' cy='24' r='3' fill='#F2C24D'/><circle cx='30' cy='40' r='3' fill='#F2C24D'/></svg>",
       "orderType": "unordered",
       "dataType": "both"
@@ -583,7 +583,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor ad-hoc analyses en root-cause analyses om te zien hoe een totaalbedrag is opgebouwd via vrije, interactieve verkenning.",
       "whenNotToUse": "Wanneer een vaste, statische en niet-interactieve rapportagestructuur vereist is.",
       "imagePath": "images/decomposition-tree.png",
-      "iconPath": "../icons/decomposition-tree.svg",
+      "iconPath": "icons/decomposition-tree.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -599,7 +599,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om dieperliggende oorzaken te achterhalen (bijv. \"wat beïnvloedt dat een klant ontevreden is?\") en patronen te ontdekken.",
       "whenNotToUse": "In dashboards die puur bedoeld zijn voor eenvoudige, vaststaande operationele KPI-lijstjes.",
       "imagePath": "images/key-influencers.png",
-      "iconPath": "../icons/key-influencers.svg",
+      "iconPath": "icons/key-influencers.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -615,7 +615,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om automatische conclusies in natuurlijke taal toe te voegen aan een rapport, wat helpt bij snelle interpretatie door besluitvormers.",
       "whenNotToUse": "Wanneer de tekstuele interpretatie volledig statisch moet zijn of aan strikte, handmatig gecontroleerde teksten moet voldoen.",
       "imagePath": "images/smart-narrative.png",
-      "iconPath": "../icons/smart-narrative.svg",
+      "iconPath": "icons/smart-narrative.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='14' width='68' height='36' rx='5' fill='white' stroke='#9BC2DA'/><line x1='20' y1='24' x2='74' y2='24' stroke='#0B4F8A'/><line x1='20' y1='31' x2='70' y2='31' stroke='#1492C5'/><line x1='20' y1='38' x2='62' y2='38' stroke='#1492C5'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -647,7 +647,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor branding (bedrijfslogo), iconen ter ondersteuning van KPI's, of dynamische productafbeeldingen via een URL.",
       "whenNotToUse": "Als vervanging voor datavisualisaties; houd het functioneel om clutter te voorkomen.",
       "imagePath": "images/image.png",
-      "iconPath": "../icons/image.svg",
+      "iconPath": "icons/image.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><path d='M24 42 L38 28 L48 38 L58 26 L72 42 Z' fill='#1492C5' opacity='0.6'/><circle cx='32' cy='24' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -663,7 +663,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor het toevoegen van titels, handleidingen, contextuele uitleg of statische links naar externe documentatie.",
       "whenNotToUse": "Voor dynamische data-gedreven teksten (gebruik daarvoor de Smart Narrative of een Card).",
       "imagePath": "images/text-box.png",
-      "iconPath": "../icons/text-box.svg",
+      "iconPath": "icons/text-box.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='14' width='68' height='36' rx='5' fill='white' stroke='#9BC2DA'/><line x1='20' y1='24' x2='74' y2='24' stroke='#0B4F8A'/><line x1='20' y1='31' x2='70' y2='31' stroke='#1492C5'/><line x1='20' y1='38' x2='62' y2='38' stroke='#1492C5'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -679,7 +679,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om visuele scheidingen aan te brengen, achtergronden voor KPI-banners te maken of processtappen te verbinden.",
       "whenNotToUse": "Overmatig gebruiken, dit kan de laadtijd van het rapport negatief beïnvloeden.",
       "imagePath": "images/shapes.png",
-      "iconPath": "../icons/shapes.svg",
+      "iconPath": "icons/shapes.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><circle cx='30' cy='32' r='10' fill='#1492C5'/><rect x='44' y='22' width='18' height='18' fill='#0B4F8A'/><polygon points='74,42 64,22 84,22' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -695,7 +695,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om aangepaste navigatiemenu's te bouwen, help-popups te openen of filters te resetten met één klik.",
       "whenNotToUse": "Voor standaard filtering waar een normale Slicer intuïtiever is.",
       "imagePath": "images/button.png",
-      "iconPath": "../icons/button.svg",
+      "iconPath": "icons/button.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='24' y='20' width='48' height='24' rx='12' fill='#0B4F8A'/><text x='48' y='35' text-anchor='middle' font-size='11' font-family='Segoe UI, Arial' fill='white'>GO</text></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -711,7 +711,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je snel een consistent, onderhoudsvriendelijk navigatiemenu wilt toevoegen aan een rapport met veel pagina's.",
       "whenNotToUse": "Als je volledige controle wilt over unieke acties per knop die niks met paginanavigatie te maken hebben.",
       "imagePath": "images/page-navigator.png",
-      "iconPath": "../icons/page-navigator.svg",
+      "iconPath": "icons/page-navigator.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='24' y='20' width='48' height='24' rx='12' fill='#0B4F8A'/><text x='48' y='35' text-anchor='middle' font-size='11' font-family='Segoe UI, Arial' fill='white'>GO</text></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -727,7 +727,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om gebruikers eenvoudig te laten schakelen tussen verschillende weergaven van dezelfde pagina (bijv. wisselen tussen tabel en grafiek).",
       "whenNotToUse": "Wanneer je slechts één specifieke, losstaande bookmark-actie wilt triggeren (gebruik dan een gewone Button).",
       "imagePath": "images/bookmark-navigator.png",
-      "iconPath": "../icons/bookmark-navigator.svg",
+      "iconPath": "icons/bookmark-navigator.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='24' y='20' width='48' height='24' rx='12' fill='#0B4F8A'/><text x='48' y='35' text-anchor='middle' font-size='11' font-family='Segoe UI, Arial' fill='white'>GO</text></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -743,7 +743,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je een interactief proces wilt ondersteunen waarbij data direct vanuit het dashboard aangepast of aangevuld moet worden in de bron.",
       "whenNotToUse": "Als het rapport puur informatief (read-only) is en er geen schrijfrechten nodig zijn.",
       "imagePath": "images/power-apps-visual.png",
-      "iconPath": "../icons/power-apps-visual.svg",
+      "iconPath": "icons/power-apps-visual.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='22' height='36' rx='5' fill='#0B4F8A'/><rect x='42' y='14' width='16' height='36' rx='5' fill='#1492C5'/><rect x='62' y='14' width='18' height='36' rx='5' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -759,7 +759,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer een gebruiker op basis van data direct een actie moet triggeren (bijv. een e-mail sturen naar een accountmanager met de huidige filtercontext).",
       "whenNotToUse": "Wanneer de actie puur binnen het Power BI rapport zelf plaatsvindt.",
       "imagePath": "images/power-automate-visual.png",
-      "iconPath": "../icons/power-automate-visual.svg",
+      "iconPath": "icons/power-automate-visual.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='22' height='36' rx='5' fill='#0B4F8A'/><rect x='42' y='14' width='16' height='36' rx='5' fill='#1492C5'/><rect x='62' y='14' width='18' height='36' rx='5' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -775,7 +775,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je een interactief dashboard wilt combineren met een grote, gedetailleerde operationele lijst die exact geprint moet kunnen worden.",
       "whenNotToUse": "Voor puur visuele, interactieve grafieken.",
       "imagePath": "images/paginated-report-visual.png",
-      "iconPath": "../icons/paginated-report-visual.svg",
+      "iconPath": "icons/paginated-report-visual.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='22' height='36' rx='5' fill='#0B4F8A'/><rect x='42' y='14' width='16' height='36' rx='5' fill='#1492C5'/><rect x='62' y='14' width='18' height='36' rx='5' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -791,7 +791,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je zeer specifieke statistische visualisaties of geavanceerde analyses nodig hebt die niet standaard in Power BI zitten.",
       "whenNotToUse": "Wanneer standaard visuals volstaan, vanwege lagere laadsnelheden en vereiste programmeerkennis voor onderhoud.",
       "imagePath": "images/python-visual.png",
-      "iconPath": "../icons/python-visual.svg",
+      "iconPath": "icons/python-visual.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><text x='31' y='38' text-anchor='middle' font-size='22' font-family='Segoe UI, Arial' fill='#0B4F8A'>Py</text><text x='64' y='38' text-anchor='middle' font-size='22' font-family='Segoe UI, Arial' fill='#1492C5'>R</text></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -807,7 +807,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor geavanceerde statistische modellen, forecasting of specifieke wetenschappelijke plots (ggplot2) die out-of-the-box ontbreken.",
       "whenNotToUse": "Als de eindgebruikers of beheerders geen kennis hebben van de R-taal.",
       "imagePath": "images/r-visual.png",
-      "iconPath": "../icons/r-visual.svg",
+      "iconPath": "icons/r-visual.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><text x='31' y='38' text-anchor='middle' font-size='22' font-family='Segoe UI, Arial' fill='#0B4F8A'>Py</text><text x='64' y='38' text-anchor='middle' font-size='22' font-family='Segoe UI, Arial' fill='#1492C5'>R</text></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -823,7 +823,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om eindgebruikers de mogelijkheid te geven om de hele rapportpagina snel te filteren op specifieke jaren, regio's of categorieën.",
       "whenNotToUse": "Voor filters die altijd statisch op de achtergrond moeten gelden (gebruik daarvoor het Filters Pane aan de rechterkant).",
       "imagePath": "images/slicer.png",
-      "iconPath": "../icons/slicer.svg",
+      "iconPath": "icons/slicer.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><rect x='22' y='20' width='52' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='22' y='32' width='38' height='8' rx='3' fill='#0B4F8A' opacity='0.35'/><circle cx='64' cy='36' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -839,7 +839,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om extra statistische context te geven aan een grafiek zonder ingewikkelde DAX-measures te hoeven schrijven.",
       "whenNotToUse": "Wanneer de referentielijn afhankelijk is van complexe business logica die niet ondersteund wordt door de standaard lijnen.",
       "imagePath": "images/analytics-pane.png",
-      "iconPath": "../icons/analytics-pane.svg",
+      "iconPath": "icons/analytics-pane.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -855,7 +855,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je een lineaire trend over de tijd hebt en een snelle, statistische indicatie van de toekomst wilt tonen inclusief betrouwbaarheidsinterval.",
       "whenNotToUse": "Bij zeer grillige data zonder duidelijke seizoensinvloeden of wanneer er externe marktfactoren meespelen die het model niet kent.",
       "imagePath": "images/forecasting.png",
-      "iconPath": "../icons/forecasting.svg",
+      "iconPath": "icons/forecasting.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -871,7 +871,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor het automatisch monitoren van ongebruikelijke pieken of dalen in bijvoorbeeld dagelijkse verkoopcijfers of serverbelasting.",
       "whenNotToUse": "Bij geaggregeerde data op hoog niveau (zoals per jaar) waar individuele uitschieters al zijn gladgestreken.",
       "imagePath": "images/anomaly-detection.png",
-      "iconPath": "../icons/anomaly-detection.svg",
+      "iconPath": "icons/anomaly-detection.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -887,7 +887,7 @@ window.CATALOG_DATA = {
       "whenToUse": "In wetenschappelijke, statistische of financiële rapportages waar het tonen van de foutmarge of bandbreedte cruciaal is.",
       "whenNotToUse": "In simpele commerciële dashboards waar dit leidt tot visuele ruis voor de eindgebruiker.",
       "imagePath": "images/error-bars.png",
-      "iconPath": "../icons/error-bars.svg",
+      "iconPath": "icons/error-bars.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='12' y='14' width='30' height='8' fill='#0B4F8A'/><rect x='12' y='27' width='46' height='8' fill='#1492C5'/><rect x='12' y='40' width='62' height='8' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -903,7 +903,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om in één oogopslag te zien welke categorieën of perioden boven of onder het algemene gemiddelde scoren.",
       "whenNotToUse": "Als een gewogen gemiddelde vereist is dat afwijkt van de simpele rekenkundige som van de visual-punten.",
       "imagePath": "images/average-line.png",
-      "iconPath": "../icons/average-line.svg",
+      "iconPath": "icons/average-line.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -919,7 +919,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om een harde benchmark, wettelijke limiet of een vaste doelstelling (target) in een grafiek te markeren.",
       "whenNotToUse": "Als de referentielijn dynamisch moet veranderen op basis van de geselecteerde categorie (gebruik dan een DAX-measure).",
       "imagePath": "images/constant-line.png",
-      "iconPath": "../icons/constant-line.svg",
+      "iconPath": "icons/constant-line.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -935,7 +935,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de centrale tendens te tonen wanneer de data sterke uitschieters bevat die het gemiddelde zouden vertekenen.",
       "whenNotToUse": "Wanneer de doelgroep niet bekend is met het concept van een mediaan.",
       "imagePath": "images/median-line.png",
-      "iconPath": "../icons/median-line.svg",
+      "iconPath": "icons/median-line.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -951,7 +951,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om de laagste prestatie of het dieptepunt in een tijdreeks direct te identificeren als referentiekader.",
       "whenNotToUse": "Als deze lijn te dicht bij de nul-as ligt en daardoor geen toegevoegde waarde heeft.",
       "imagePath": "images/min-line.png",
-      "iconPath": "../icons/min-line.svg",
+      "iconPath": "icons/min-line.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -967,7 +967,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om het absolute hoogtepunt of de beste prestatie binnen de huidige selectie direct te accentueren.",
       "whenNotToUse": "Als de visual al erg vol is met andere referentielijnen.",
       "imagePath": "images/max-line.png",
-      "iconPath": "../icons/max-line.svg",
+      "iconPath": "icons/max-line.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -983,7 +983,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor geavanceerde kwaliteitsbewaking of servicelevel-rapportages (SLA) om te zien welke uitschieters buiten de norm vallen.",
       "whenNotToUse": "Voor standaard managementrapportages, omdat het concept voor veel niet-technische gebruikers lastig te interpreteren is.",
       "imagePath": "images/percentile-line.png",
-      "iconPath": "../icons/percentile-line.svg",
+      "iconPath": "icons/percentile-line.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><polyline points='14,44 30,34 44,39 58,24 76,16' fill='none' stroke='#0B4F8A' stroke-width='3'/><circle cx='30' cy='34' r='2.5' fill='#1492C5'/><circle cx='58' cy='24' r='2.5' fill='#F2C24D'/></svg>",
       "orderType": "ordered",
       "dataType": "numeric"
@@ -999,7 +999,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om aanvullende details te tonen zonder de primaire visual druk of onoverzichtelijk te maken.",
       "whenNotToUse": "Wanneer de informatie zo belangrijk is dat deze direct permanent zichtbaar moet zijn op het scherm.",
       "imagePath": "images/tooltips.png",
-      "iconPath": "../icons/tooltips.svg",
+      "iconPath": "icons/tooltips.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1015,7 +1015,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je secundaire visuals (zoals een mini-lijngrafiek of een top 5 lijst) wilt tonen die specifiek zijn voor het geselecteerde punt.",
       "whenNotToUse": "Als het de laadtijd van het rapport te veel vertraagt of als een simpele tekst-tooltip volstaat.",
       "imagePath": "images/report-page-tooltips.png",
-      "iconPath": "../icons/report-page-tooltips.svg",
+      "iconPath": "icons/report-page-tooltips.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1031,7 +1031,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om een \"van hoofdlijn naar detail\"-analyse mogelijk te maken (bijv. van Jaaroverzicht naar een specifieke Transactiepagina van één klant).",
       "whenNotToUse": "Als alle benodigde informatie al op de hoofdpagina past of als er geen logische hiërarchie in de data zit.",
       "imagePath": "images/drillthrough.png",
-      "iconPath": "../icons/drillthrough.svg",
+      "iconPath": "icons/drillthrough.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1047,7 +1047,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Standaardgedrag in Power BI; perfect om de samenhang tussen verschillende visuals op dezelfde pagina intuïtief te verkennen.",
       "whenNotToUse": "Wanneer je wilt voorkomen dat bepaalde visuals (zoals een algemene benchmark) veranderen door interactie (zet dit dan uit via Edit Interactions).",
       "imagePath": "images/cross-filtering.png",
-      "iconPath": "../icons/cross-filtering.svg",
+      "iconPath": "icons/cross-filtering.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1063,7 +1063,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Bij uitstek geschikt voor column en bar charts om de visuele verhouding van een selectie ten opzichte van het totaal te blijven zien.",
       "whenNotToUse": "Bij lijndiagrammen of tabellen, omdat dit technisch niet logisch werkt (interactie springt dan automatisch naar filteren).",
       "imagePath": "images/cross-highlighting.png",
-      "iconPath": "../icons/cross-highlighting.svg",
+      "iconPath": "icons/cross-highlighting.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1079,7 +1079,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor het bouwen van interactieve storytelling, pop-up schermen, of knoppen waarmee je wisselt tussen verschillende lay-outs.",
       "whenNotToUse": "Als overmatig alternatief voor losse pagina's; te veel bookmarks maken het rapportonderhoud complex.",
       "imagePath": "images/bookmarks.png",
-      "iconPath": "../icons/bookmarks.svg",
+      "iconPath": "icons/bookmarks.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1095,7 +1095,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om trends of verdelingen efficiënt te vergelijken tussen verschillende groepen (bijv. dezelfde lijngrafiek apart tonen per Regio).",
       "whenNotToUse": "Wanneer de individuele grafieken te klein worden om nog betekenisvol af te lezen, of bij te veel categorieën.",
       "imagePath": "images/small-multiples.png",
-      "iconPath": "../icons/small-multiples.svg",
+      "iconPath": "icons/small-multiples.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='16' width='28' height='16' fill='#0B4F8A' opacity='0.65'/><rect x='46' y='16' width='28' height='16' fill='#1492C5' opacity='0.65'/><rect x='14' y='34' width='28' height='16' fill='#1492C5' opacity='0.65'/><rect x='46' y='34' width='28' height='16' fill='#F2C24D' opacity='0.65'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1111,7 +1111,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Onmisbaar bij het ontwerpen van complexe lay-outs met overlappende visuals, pop-ups en in combinatie met bookmarks.",
       "whenNotToUse": "Heeft geen directe functie voor de eindgebruiker; puur een hulpmiddel voor de ontwikkelaar.",
       "imagePath": "images/selection-pane.png",
-      "iconPath": "../icons/selection-pane.svg",
+      "iconPath": "icons/selection-pane.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1127,7 +1127,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer een gebruiker een selectie (zoals een specifiek Jaar) maakt en verwacht dat dit over de hele rapportage heen behouden blijft.",
       "whenNotToUse": "Wanneer pagina's juist bedoeld zijn om onafhankelijk verschillende scenario's of perioden met elkaar te vergelijken.",
       "imagePath": "images/sync-slicers.png",
-      "iconPath": "../icons/sync-slicers.svg",
+      "iconPath": "icons/sync-slicers.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><rect x='22' y='20' width='52' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='22' y='32' width='38' height='8' rx='3' fill='#0B4F8A' opacity='0.35'/><circle cx='64' cy='36' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1143,7 +1143,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om self-service te vergroten voor analisten die net een andere invalshoek willen zien zonder dat de ontwikkelaar het rapport hoeft aan te passen.",
       "whenNotToUse": "In dashboards voor het brede management waar uniformiteit en één vaste waarheid strikt vereist zijn.",
       "imagePath": "images/personalize-visuals.png",
-      "iconPath": "../icons/personalize-visuals.svg",
+      "iconPath": "icons/personalize-visuals.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1159,7 +1159,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor het snel maken van berekeningen die puur afhankelijk zijn van de matrix- of tabelstructuur van die specifieke visual (veel simpeler dan reguliere DAX).",
       "whenNotToUse": "Wanneer de metric organisatie-breed hergebruikt moet worden in meerdere verschillende visuals (maak dan een normale measure).",
       "imagePath": "images/visual-calculations.png",
-      "iconPath": "../icons/visual-calculations.svg",
+      "iconPath": "icons/visual-calculations.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1175,7 +1175,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Om snel tijdsberekeningen (YTD), ratio's of lopende totalen op te zetten als beginnend of productieve DAX-ontwikkelaar.",
       "whenNotToUse": "Voor complexe, bedrijfsspecifieke logica die diepgaand maatwerk en performance-optimalisatie vereist.",
       "imagePath": "images/quick-measures.png",
-      "iconPath": "../icons/quick-measures.svg",
+      "iconPath": "icons/quick-measures.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1191,7 +1191,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je een dashboard compact wilt houden en de eindgebruiker zelf de controle wilt geven over de assen of KPI's.",
       "whenNotToUse": "Voor eenvoudige rapporten waar de eindgebruiker vaste, vooraf gedefinieerde inzichten nodig heeft zonder extra te hoeven klikken.",
       "imagePath": "images/field-parameters.png",
-      "iconPath": "../icons/field-parameters.svg",
+      "iconPath": "icons/field-parameters.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1207,7 +1207,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Als je veel identieke berekeningen (YTD, YoY, MoM) moet herhalen voor tientallen verschillende KPI's, om een wildgroei aan measures te voorkomen.",
       "whenNotToUse": "In eenvoudige datamodellen met slechts een handvol basismethode-berekeningen.",
       "imagePath": "images/calculation-groups.png",
-      "iconPath": "../icons/calculation-groups.svg",
+      "iconPath": "icons/calculation-groups.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='14' y='18' width='16' height='8' fill='#0B4F8A'/><rect x='40' y='12' width='16' height='8' fill='#1492C5'/><rect x='40' y='26' width='16' height='8' fill='#1492C5'/><rect x='66' y='8' width='16' height='8' fill='#F2C24D'/><rect x='66' y='20' width='16' height='8' fill='#F2C24D'/><rect x='66' y='32' width='16' height='8' fill='#F2C24D'/><path d='M30 22 H40 M56 16 H66 M56 30 H66 M56 22 H66' stroke='#4F7A94'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1223,7 +1223,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer je data wilt filteren op meerdere niveaus die een logische relatie hebben (bijv. Land > Provincie > Stad of Productgroep > Product).",
       "whenNotToUse": "Voor volledig losstaande, niet-gerelateerde dimensies.",
       "imagePath": "images/hierarchical-slicer.png",
-      "iconPath": "../icons/hierarchical-slicer.svg",
+      "iconPath": "icons/hierarchical-slicer.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><rect x='22' y='20' width='52' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='22' y='32' width='38' height='8' rx='3' fill='#0B4F8A' opacity='0.35'/><circle cx='64' cy='36' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1239,7 +1239,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer de focus van het rapport altijd ligt op recente perioden (bijv. \"laatste 30 dagen\", \"dit kwartaal\", \"afgelopen kalenderjaar\").",
       "whenNotToUse": "Wanneer gebruikers vaak specifieke, willekeurige historische datumbereiken uit het verre verleden handmatig moeten selecteren.",
       "imagePath": "images/relative-date-slicer.png",
-      "iconPath": "../icons/relative-date-slicer.svg",
+      "iconPath": "icons/relative-date-slicer.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><rect x='22' y='20' width='52' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='22' y='32' width='38' height='8' rx='3' fill='#0B4F8A' opacity='0.35'/><circle cx='64' cy='36' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1255,7 +1255,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Voor real-time of near-real-time dashboards (bijv. IoT-sensoren of live fabrieksprocessen) waar de allerlaatste uren cruciaal zijn.",
       "whenNotToUse": "In reguliere managementrapportages die gebaseerd zijn op dagelijkse of wekelijkse data-laadcycli.",
       "imagePath": "images/relative-time-slicer.png",
-      "iconPath": "../icons/relative-time-slicer.svg",
+      "iconPath": "icons/relative-time-slicer.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><rect x='22' y='20' width='52' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='22' y='32' width='38' height='8' rx='3' fill='#0B4F8A' opacity='0.35'/><circle cx='64' cy='36' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1271,7 +1271,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer de ruimte op het dashboard erg schaars is en er gefilterd moet worden op een dimensie met veel unieke waarden.",
       "whenNotToUse": "Wanneer er slechts 2 of 3 opties zijn die direct in het zicht moeten staan voor een snelle, intuïtieve klik.",
       "imagePath": "images/dropdown-slicer.png",
-      "iconPath": "../icons/dropdown-slicer.svg",
+      "iconPath": "icons/dropdown-slicer.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><rect x='22' y='20' width='52' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='22' y='32' width='38' height='8' rx='3' fill='#0B4F8A' opacity='0.35'/><circle cx='64' cy='36' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1287,7 +1287,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Wanneer er voldoende ruimte is en de beschikbare opties (bijv. Ja/Nee of Regio) direct in het gezichtsveld van de gebruiker moeten staan.",
       "whenNotToUse": "Wanneer de filterlijst honderden waarden bevat, waardoor de gebruiker onnodig veel moet scrollen.",
       "imagePath": "images/list-slicer.png",
-      "iconPath": "../icons/list-slicer.svg",
+      "iconPath": "icons/list-slicer.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><rect x='22' y='20' width='52' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='22' y='32' width='38' height='8' rx='3' fill='#0B4F8A' opacity='0.35'/><circle cx='64' cy='36' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
@@ -1303,7 +1303,7 @@ window.CATALOG_DATA = {
       "whenToUse": "Uitstekend geschikt voor datumbereiken of numerieke schalen waar de gebruiker flexibel een \"van-tot\" periode of waarde wil selecteren.",
       "whenNotToUse": "Voor discrete categorieën (zoals merknamen of afdelingen) waar geen logische numerieke volgorde in zit.",
       "imagePath": "images/between-slicer.png",
-      "iconPath": "../icons/between-slicer.svg",
+      "iconPath": "icons/between-slicer.svg",
       "svgIcon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 64'><defs><linearGradient id='bg' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='#EAF6FF'/><stop offset='100%' stop-color='#CFE8F7'/></linearGradient></defs><rect x='1' y='1' width='94' height='62' rx='10' fill='url(#bg)' stroke='#7EA9C3'/><rect x='16' y='14' width='64' height='36' rx='6' fill='white' stroke='#9BC2DA'/><rect x='22' y='20' width='52' height='8' rx='3' fill='#1492C5' opacity='0.35'/><rect x='22' y='32' width='38' height='8' rx='3' fill='#0B4F8A' opacity='0.35'/><circle cx='64' cy='36' r='4' fill='#F2C24D'/></svg>",
       "orderType": "both",
       "dataType": "both"
