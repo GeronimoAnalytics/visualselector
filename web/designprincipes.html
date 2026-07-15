@@ -6,7 +6,7 @@
   <title>Designprincipes</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <style>
     .page-nav {
@@ -32,7 +32,7 @@
     }
 
     .principles-menu .choice.active {
-      box-shadow: 0 6px 14px rgba(10, 123, 131, 0.22);
+      box-shadow: 0 10px 20px rgba(63, 31, 113, 0.22);
     }
 
     .principles-list {
@@ -42,7 +42,7 @@
 
     .principle-item {
       border: 1px solid var(--line);
-      border-radius: 14px;
+      border-radius: 18px;
       background: #fff;
       overflow: hidden;
       display: grid;
@@ -51,7 +51,7 @@
 
     .principle-image {
       border-bottom: 1px solid var(--line);
-      background: #f4f9fb;
+      background: color-mix(in srgb, var(--teal), white 91%);
     }
 
     .principle-image img {
@@ -70,7 +70,7 @@
 
     .principle-kicker {
       margin: 0;
-      color: var(--teal);
+      color: var(--purple);
       letter-spacing: 0.1em;
       text-transform: uppercase;
       font-size: 0.73rem;
@@ -80,6 +80,7 @@
     .principle-content h3 {
       margin: 0.35rem 0 0.5rem;
       font-size: 1.25rem;
+      color: var(--purple);
     }
 
     .principle-list {
@@ -108,10 +109,11 @@
     .image-lightbox-card {
       width: min(960px, 92vw);
       border: 1px solid var(--line);
-      border-radius: 14px;
+      border-radius: 18px;
       background: #fff;
       overflow: hidden;
       position: relative;
+      box-shadow: 0 26px 52px rgba(34, 24, 64, 0.22);
     }
 
     .image-lightbox-card img {
@@ -119,7 +121,7 @@
       width: 100%;
       max-height: 80vh;
       object-fit: contain;
-      background: #f7fbfd;
+      background: color-mix(in srgb, var(--teal), white 94%);
     }
 
     .image-lightbox-close {
@@ -127,12 +129,13 @@
       top: 0.55rem;
       right: 0.55rem;
       border: 1px solid var(--line);
-      border-radius: 8px;
+      border-radius: 999px;
       width: 2rem;
       height: 2rem;
       background: #fff;
       cursor: pointer;
       font-weight: 700;
+      color: var(--purple);
     }
 
     .image-lightbox-caption {
